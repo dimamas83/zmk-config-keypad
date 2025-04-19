@@ -1,4 +1,4 @@
 name: keypad
-# build:
-#   settings:
-#     board_root: .
+build:
+  settings:
+    board_root: .
