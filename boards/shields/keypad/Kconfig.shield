@@ -1,2 +1,2 @@
 config SHIELD_KEYPAD
-    def_bool $(sheild_list_contains,keypad)
+    def_bool $(sheilds_list_contains,keypad)
