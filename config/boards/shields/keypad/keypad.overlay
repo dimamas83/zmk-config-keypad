@@ -1,4 +1,4 @@
-#include "keypad_layouts.dtsi"
+#include "keypad-layouts.dtsi"
 
 / {
     chosen {
