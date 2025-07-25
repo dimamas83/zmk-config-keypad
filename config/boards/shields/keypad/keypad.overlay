@@ -1,7 +1,7 @@
 / {
-    chosen {
-        zmk,kscan = &kscan;
-    };
+   // chosen {
+   //     zmk,kscan = &kscan;
+   //};
 
     kscan: kscan {
         compatible = "zmk,kscan-gpio-direct";
