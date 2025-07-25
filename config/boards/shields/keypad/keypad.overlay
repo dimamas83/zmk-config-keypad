@@ -20,6 +20,10 @@
                         <&pro_micro 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
 
     };
+    
 
+};
 
+&physical_layout0 {
+    transform = <&default_transform>;
 };
