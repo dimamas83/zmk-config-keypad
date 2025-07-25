@@ -1,5 +1,8 @@
+#include "keypad_layouts.dtsi"
+
 / {
     chosen {
+        zmk,physical_layout = &physical_layout0;
         zmk,kscan = &kscan;
    };
 
@@ -18,5 +21,5 @@
 
     };
 
-    
+
 };
