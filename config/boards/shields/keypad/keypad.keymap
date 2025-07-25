@@ -15,7 +15,7 @@
         default_layer {
             bindings = <
                 &mo 1 &kp Q &kp W &kp T
-                &kp X &kp A &kp S &kp P
+                &studio_unlock &kp A &kp S &kp P
             >;
         };
 
@@ -24,6 +24,14 @@
                 &kp B &kp J &bt BT_CLR &kp U
                 &kp L &bt BT_SEL 0 &kp H &kp K
             >;
+        };
+
+        extra1 {
+            status = "reserved";
+        };
+
+        extra2 {
+            status = "reserved";
         };
     };
 };
